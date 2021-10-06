@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De volta ao trabalho</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo-fcamara-laranja-02-1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="home" class="home">
+        <header class="header">
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#information">Informações</a>
+                    </li>
+                    <li>
+                        <img src="/img/logo-fcamara-laranja-02-1.png" alt="fCamara" class="logo">
+                    </li>
+                    <li>
+                        <a href="#appointment">Agendamento</a>
+                    </li>
+                    <li>
+                        <a href="#location">Localização</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <div id="container">
+            <h1>#SangueLaranjas</h1>
+            <span class="span-h2">de volta aos escritórios?</span>
+            <div class="img-covid">
+                <img src="https://www.daviesoffice.com/wp-content/uploads/2017/12/remanufactured-workspace.png" class="home-img">
+            </div>  
+            <div class="paragrafo">
+                <p> Com a Pandemia da Covid-19, muita coisa mudou. O trabalho remoto não foi uma opção, mas sim necessário e assim se foram quase 2 anos de home office. Porém, hoje com a vacinação em andamento, já podemos enxergar novas possibilidades, e aqui na <strong>FCamara</strong> não é diferente, com muito cuidado e segurança estamos planejando a reabertura da nossa empresa. Estamos muito felizes com essa novidade, mas sabemos que não será como antes.
+                </p>
+            </div>
+            
+        </div>
+        <div class="container-btt">
+            <div class="text">
+                <h3>A volta ao escritório NÃO é obrigatória</h3>
+            </div>
+
+            <span>Mas se quiser agendar sua volta</span>
+
+            <div class="btt">
+                <button id="btt-home">Clique aqui</button>
+            </div>
+
+        </div>
+        
+       
+    </section>
+    <section id="information" class="information">
+        <div class="textInfo">
+
+            <span>Informações importantes:</span>
+            
+            <h2>O que nossos <b>consultores</b> precisam saber?</h2>
+            
+            <div class="text">
+                <div class="divSpan">
+                    <span>
+                        Para podermos organizar 
+                        essa reabertura, precisamos primeiro 
+                        deixar todas as informações 
+                        sobre esse processo bem claras:
+                    </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <blockquote class="informe" data-anime="left">
+                    <p>
+                        O retorno ao escritório só é possível através de um sistema de agendamento, onde os #SangueLaranjas poderão optar qual escritório ir, além de escolher data e também a estação de trabalho demarcada com um número.
+
+                    </p>
+                </blockquote>
+            </div>
+            <div class="box1">
+                <blockquote class="informe" data-anime="right">
+                    <p>
+                        Será medida a temperatura ao chegar no escritório.
+
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="box2">
+                <blockquote class="informe" data-anime="left">
+                    <p>
+                        Todos os consultores deverão usar máscaras dentro das acomodações dos escritórios.
+
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="box3">
+                <blockquote class="informe" data-anime="right">
+                    <p>
+                        Nas mesas existem adesivos sinalizando onde os #SangueLaranjas devem sentar, para que haja o distanciamento necessário.
+
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="box4">
+                <blockquote class="informe" data-anime="left">
+                    <p>
+                        Pessoas que estiverem sentindo algum sintoma não devem ir trabalhar presencialmente, a indicação é para que permaneçam em casa.
+
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="box5">
+                <blockquote class="informe" data-anime="right">
+                    <p>
+                        Os escritórios só podem comportar até 40% dos consultores, conforme a legislação.
+                    </p>
+                </blockquote>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section id="appointment" class="appointment">
+        
+        <div class="container">
+
+            <h2>Agende seu retorno ao escritório:</h2>
+            
+            <form id="formAgendamento" action="gravarDados.html">
+                <div class="personal-data">
+                    <div class="input-wrapper">                
+                        <label>Nome:</label>
+                        <input type="text" placeholder="Digite o seu nome" name="nome">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input-wrapper">                
+                        <label>Sobrenome:</label>
+                        <input type="text" placeholder="Digite o seu sobrenome" name="sobrenome">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input-wrapper">                
+                        <label>Email:</label>
+                        <input type="email" placeholder="Digite o seu email" name="email">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input-wrapper">                
+                        <label>Celular:</label>
+                        <input type="tel" placeholder="Digite o seu celular" name="telefone">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input-wrapper">                
+                        <label>Escritório:</label>
+                        <select name="escritorio">
+                            <option value="">-- Selecione o escritório --</option>
+                            <option value="Headquarter">Headquarter - São Paulo</option>
+                            <option value="Branch">Branch - Santos</option>
+                        </select>
+                        <span class="error"></span>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <label class="agendamento">Agendamento:</label>
+                    <input id="agendamento" type="datetime-local" name="agendamento">
+                    <span class="error"></span>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+
+    </section>
+    <section id ="location" class="location">
+        <div class="container-location">
+            <div class="head">
+                <div class="info">
+                    <div class="icone">
+                        <img src="https://www.shareicon.net/data/2017/07/04/888073_map_349x512.png" alt="localização">
+
+                    </div>
+                    <div class="text">
+                        <span>Localização:</span>
+                        <span>Rua Bela Cintra, 986 - 2° andar</span>
+                    </div>
+
+                    <div class="info">
+                        <div class="icone">
+                            <img src="https://cdn.shopify.com/s/files/1/2704/8378/files/clocko.png" alt="Localização" class="clock">
+                        </div>
+                        <div class="text">
+                            <span>Horário:</span>
+                            <span>Seg à Sex: 9AM às 18PM</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="head">
+                <div class="info">
+                    <div class="icone">
+                        <img src="https://www.shareicon.net/data/2017/07/04/888073_map_349x512.png" alt="localização">
+
+                    </div>
+                    <div class="text">
+                        <span>Localização:</span>
+                        <span>Prç. dos Expedicionários, 19</span>
+                    </div>
+
+                    <div class="info">
+                        <div class="icone">
+                            <img src="https://cdn.shopify.com/s/files/1/2704/8378/files/clocko.png" alt="Localização" class="clock">
+                        </div>
+                        <div class="text">
+                            <span>Horário:</span>
+                            <span>Seg à Sex: 9AM às 18PM</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-map">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.357617496516!2d-46.663570284535574!3d-23.555596267265578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582d7aee0fe5%3A0x713fe886cc822822!2sR.%20Bela%20Cintra%2C%20986%20-%202%C2%B0%20andar%20-%20Consola%C3%A7%C3%A3o%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001415-906%2C%20Brazil!5e0!3m2!1sen!2spt!4v1633351805204!5m2!1sen!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.034693960299!2d-46.33343908501456!3d-23.9592132844868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce030c4b240a97%3A0x97f8c2e6906eae7!2sPr%C3%A7.%20dos%20Expedicion%C3%A1rios%2C%2019%20-%20Gonzaga%2C%20Santos%20-%20SP%2C%2011065-500%2C%20Brazil!5e0!3m2!1sen!2spt!4v1633351738925!5m2!1sen!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+            
+                
+        </div>
+
+        <footer class="footer">
+            © 2021 Brian Villanova - Todos os direitos reservados
+        </footer>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

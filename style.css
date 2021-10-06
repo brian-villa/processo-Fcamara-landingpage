@@ -1,0 +1,548 @@
+:root {
+    --color-primary: #FE4400;
+    --color-secondary: #fff;
+    --color-blue: #4B4FA1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.container-btt {
+    display: flex;
+    width: 1170px;
+    margin: 700px auto;
+}
+
+.container-location {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+.container-map {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+
+/**** HOME ****/
+
+section.home {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    height: 100vh;
+    position: relative;
+    
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.nav ul li a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.nav ul li a:hover {
+    border-bottom: 1px solid  var(--color-primary);
+}
+
+.nav .logo {
+    margin: 0 30px;
+    width: 33px;
+}
+
+div#container {
+    margin: 0 auto;
+    color: var(--color-primary);
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 21%;
+    height: 295px;
+    width: 760px;
+   
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: -250px;
+}
+
+.span-h2 {
+    font-style: bold;
+    color: black;
+    margin: 40px;
+    margin-left: -20px;
+}
+
+div.paragrafo {
+    margin-top: -250px;
+    margin-left: 100px;
+    display: flex;
+    width: 300px;
+}
+
+.paragrafo p {
+    color: black;
+    font-size: 16px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    
+}
+
+.paragrafo p strong {
+    color: var(--color-primary);
+}
+
+div.img-covid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 530px;
+    height: 275px;
+}
+
+.home-img {
+    margin-left: 450px;
+    padding: 30px;
+    width: auto;
+    height: 320px;
+}
+
+.container-btt .text h3 {
+    width: 500px;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 300px;
+}
+
+.container-btt span {
+    margin-top: -30px;
+    margin-left: 80px;
+}
+
+.container-btt .btt {
+    margin-top: 0px;
+    margin-left: -200px;
+}
+
+.btt button {
+    background-color: var(--color-blue);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 600ms;
+}
+
+.btt button:hover {
+    transition: 600ms;
+    font-size: 15px ;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+
+/***** INFORMAÇÕES ****/
+
+section.information {
+   background-color: black; 
+    background-image: url("https://www.pinclipart.com/picdir/big/274-2749365_tigers-stands-for-trust-interdependence-genuineness-clipart.png");
+    background-repeat: no-repeat;
+    background-position-x: 70rem;
+}
+
+div .textInfo {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.textInfo h2 {
+    margin: 80px;
+    color: white;  
+    font-weight: 400;
+    font-size: 40px; 
+}
+
+.textInfo h2 b:hover {
+    color: var(--color-primary);
+}
+
+.container-btt .text {
+    flex-wrap: wrap;
+    width: 33%;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;   
+}
+
+.text .divSpan {
+    display: flex;
+    margin-top: -100px;
+    margin-left: 180px; 
+    padding: 20px;
+    letter-spacing: 2px;
+    height: 100px;
+    width: 700px;
+    justify-content: flex-end;
+}
+
+.text .divSpan span {
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 21px;
+    color: var(--color-secondary);
+    font-weight: 50;  
+}
+
+.juntos {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 820px;
+    
+}
+
+div.box {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 0 -550px;  
+    letter-spacing: 1px; 
+}
+
+div.box1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    letter-spacing: 1px;
+    margin: 70px 0 0 600px;   
+}
+
+div.box2 {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    margin: 50px 0 0 -550px;   
+}
+
+div.box3 {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    margin: 50px 0 0 600px;   
+}
+
+div.box4 {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    margin: 50px 0 0 -550px;   
+}
+
+div.box5 {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    margin: 50px 0 0 600px;   
+}
+
+.informe {
+    
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px var(--color-primary);
+    background: var(--color-primary);
+}
+
+.informe p {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+}
+
+/*** Agendamento ***/
+
+.appointment {
+
+    padding: 100px 0;
+    background-color: var(--color-secondary);
+    background-image: url(https://www.freeiconspng.com/uploads/calendar-image-png-26.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;   
+}
+
+.appointment img {
+    margin: 0 auto;
+    display: block;
+}
+
+.appointment h2 {
+    margin-bottom: 10px; 
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.appointment form {
+    margin-top: 80px;
+}
+
+
+
+.personal-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.appointment .input-wrapper:last-of-type {
+    margin: 0;
+}
+
+.appointment label {
+    display: block;
+    color: var(--color-blue);
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.appointment .personal-data input,
+.appointment .personal-data select {
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.appointment .agendamento {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.appointment #agendamento {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 487px;
+}
+
+
+
+.appointment button {
+    background-color: var(--color-blue);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 523px;
+    transition: 600ms
+}
+
+.appointment button:hover {
+    transition: 600ms;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-size: 15px;
+}
+
+/****VALIDAÇÃO FORMS ***/
+
+.appointment .error {
+    font-size: 13px;
+    color: red;
+}
+
+.appointment .personal-data .inputError {
+    border: 1px solid red;   
+}
+
+.appointment .inputError {
+    border: 1px solid red;   
+}
+
+.appointment .personal-data .selectError {
+    border: 1px solid red;
+}
+
+/***LOCATION**/
+
+.location {
+    padding: 100px 0;
+    background-image: url(https://image.shutterstock.com/image-photo/modern-office-room-supplies-on-260nw-1598189440.jpg);
+    background-size: cover;
+}
+
+.location .head {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-blue);
+    padding: 40px;
+    width: 50%;
+    margin-right: 70px; 
+}
+
+.location .head .info {
+    display: flex;
+    align-items: center;
+}
+
+.location .head .info .icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+    border-radius: 100%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.location .head .info .icone img {
+    width: 20px; 
+    height: 30px;
+}
+
+.location .head .info .icone .clock {
+    width: 30px; 
+}
+
+.location .head .info .text span {
+    display: block;
+    font-size: 13px;
+}
+
+.location .text {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.location .head .info .text span:first-child {
+    color: var(--color-secondary);
+    margin-bottom: 6px;
+}
+
+.location .head .info .text span:last-child {
+    color: var(--color-secondary);
+}
+
+.location .container-map .map {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 50%;
+    margin-top: -37px;
+    margin-left: -37px;
+    
+}
+
+.location .container-map .map:last-child {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 50%;
+    margin-top: -35px;
+    margin-left: 0px;  
+}
+
+
+/****************
+*   Footer
+****************/
+
+.footer {
+    margin-bottom: -190px;
+    background-color: #191919;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*** ANIMAÇÃO ***/
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+/****AGENDAMENTOS***/
+
+section .appointment {
+    background-color: white;
+}
+
+div .forms {
+    display: flex;
+}
